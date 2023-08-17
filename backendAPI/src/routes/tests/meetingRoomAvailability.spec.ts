@@ -4,7 +4,7 @@ jest.mock("../../meetingRoomData");
 // stop console logs
 console.log = jest.fn();
 
-describe("routes -> hello", () => {
+describe("routes -> meetingRoomAvailability", () => {
   beforeEach(() => jest.clearAllMocks());
 
   it("Test for availability of meeting rooms given a day/time where the meeting room is available", async () => {
