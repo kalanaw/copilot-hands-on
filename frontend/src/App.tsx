@@ -10,7 +10,13 @@ function App() {
       <h1>
       Welcome to copilot hands on session
       </h1>
-      <Login />
+      {/* configure routes, home and login */}
+      {/* <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<G />} />
+      </Routes> */}
+
 
     </div>
   );
