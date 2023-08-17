@@ -1,6 +1,7 @@
 import express from "express";
-import { appInitialize } from "../index";
+import { appInitialize } from "../initialize";
 import { helloRoute } from "../routes/hello";
+import { meetingRoomAvailabilityRoute } from "../routes/meetingRoomAvailability";
 
 describe("index -> InitializeApp", () => {
   beforeEach(() => jest.clearAllMocks());
@@ -14,6 +15,7 @@ describe("index -> InitializeApp", () => {
         [express.json()],
         [express.urlencoded({ extended: true })],
         [helloRoute()],
+        [meetingRoomAvailabilityRoute()],
       ])
     );
   });
