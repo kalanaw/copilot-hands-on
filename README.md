@@ -19,6 +19,8 @@ In this hands-on session, one developer from each project will participate and c
 - Email address should be validated.
 - Should roughly follow the given mockup.
 
+![Alt text](docs/login.png?raw=true "Login UI Mockup")
+
 ##### Explore:
 - Using prompts to generate the login UI layout and styling.
 - Using prompts to write the Email validation function.
