@@ -1,5 +1,5 @@
 import express from "express";
-import { appInitialize } from "../index";
+import { appInitialize } from "../initialize";
 import { helloRoute } from "../routes/hello";
 
 describe("index -> InitializeApp", () => {
