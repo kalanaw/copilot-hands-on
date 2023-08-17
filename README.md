@@ -1,49 +1,44 @@
-### Hands on session overview 
+# Hands-on Session Overview
 
-One developer from each project participates and works in pairs. 
+In this hands-on session, one developer from each project will participate and collaborate in pairs.
 
-A project repo is given where they can start 
+## Participation Details
 
-Task list is given (e.g., Create a login screen, create a login API, write a unit test for xx function) 
+- Each project will nominate one developer to participate.
+- Developers will work in pairs.
+- A project repository will be provided as a starting point.
 
-Sample prompts can be shared by the organizers on project for each tasks as teams try 
+## Task List
 
-Prompts and results from participants can be posted on to a chat for knowledge sharing 
+Participants will be assigned the following tasks:
 
- 
+1. **Front-End (FE):** Create a login page with fields for email address and password. Validate the email address.
 
-Tech stack
+2. **Back-End (BE):** Create an API endpoint to receive login details and respond with a hardcoded token using HTTP 200 status.
 
-Backend: NodeJS/Express with TypeScript 
+3. **Front-End (FE):** Write an API request to communicate with the login API.
 
-Front-end: React with TypeScript.
+4. **Back-End (BE):** Add an API endpoint to provide meeting data. Use the provided JSON data source.
 
-Unit Testing: Jest with TypeScript 
+5. **Back-End (BE):** Implement a function to aggregate "internal" meeting hours that occur between 11:00 and 13:00 during busy hours.
 
- 
+6. **Back-End (BE):** Write unit tests to cover all possible scenarios.
 
-Tasks: 
+7. **Front-End (FE):** Add routing to the React project using `react-router-dom`.
 
-FE: Create a login page with email address and password. 
+8. **Front-End (FE):** Create a page containing a list of meetings.
 
-Email address should be validated. 
+9. **Front-End (FE):** Add a button to sort the meeting list in ascending order.
 
-BE: Create an API end-point to receive login details and return a hardcoded token with http 200. 
+10. **Front-End (FE):** Incorporate a chart using `chartjs` to visualize data.
 
-FE: Write an API request to communicate with the login API 
+## Tech Stack
 
-BE: Add an API end-point to provide meeting data. 
+- **Backend:** NodeJS/Express with TypeScript
+- **Front-end:** React with TypeScript
+- **Unit Testing:** Jest with TypeScript
 
-Use given chart json as data source 
+## Knowledge Sharing
 
-Write a function to aggregate “internal” meeting hours that takes place during busy hours which is from 11:00 to 13:00 
-
-Write unit tests to cover all possible scenarios 
-
-FE: Add a router to the React project. Use may use react-router-dom 
-
-FE: Add a page that contains a list of meetings 
-
-FE: Add a button to sort the list in ascending order 
-
-FE: Add a chart using chatjs 
+- Sample prompts will be provided by organizers for each task as teams work on them.
+- Participants can share prompts and their results in a chat for knowledge sharing.
