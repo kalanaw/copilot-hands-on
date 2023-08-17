@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Login } from './components/login/login';
 import {Routes, Route} from 'react-router-dom';
+import { HomePage } from './components/home-page/home-page';
 
 function App() {
   return (
@@ -10,14 +11,7 @@ function App() {
       <h1>
       Welcome to copilot hands on session
       </h1>
-      {/* configure routes, home and login */}
-      {/* <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<G />} />
-      </Routes> */}
-
-
+      <Login></Login>
     </div>
   );
 }
