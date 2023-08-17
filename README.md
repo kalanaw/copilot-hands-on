@@ -8,29 +8,51 @@ In this hands-on session, one developer from each project will participate and c
 - Developers will work in pairs.
 - A project repository will be provided as a starting point.
 
+-----
+
 ## Task List
 
-Participants will be assigned the following tasks:
+#### We are building a web application and its API, that helps us to find available meeting slots for a meeting, based on meeting room availability and duration required.
 
-1. **Front-End (FE):** Create a login page with fields for email address and password. Validate the email address.
+### 1. Front-End: Create a login page with email address and password.
 
-2. **Back-End (BE):** Create an API endpoint to receive login details and respond with a hardcoded token using HTTP 200 status.
+- Email address should be validated.
+- Should roughly follow the given mockup.
 
-3. **Front-End (FE):** Write an API request to communicate with the login API.
+##### Explore:
+- Using prompts to generate the login UI layout and styling.
+- Using prompts to write the Email validation function.
 
-4. **Back-End (BE):** Add an API endpoint to provide meeting data. Use the provided JSON data source.
+**----  Discussion ----**
 
-5. **Back-End (BE):** Implement a function to aggregate "internal" meeting hours that occur between 11:00 and 13:00 during busy hours.
+- What are the prompts you used?
+- What prompts didn’t work and why?
 
-6. **Back-End (BE):** Write unit tests to cover all possible scenarios.
+---
 
-7. **Front-End (FE):** Add routing to the React project using `react-router-dom`.
+### 2. Back-end: Find a free meeting room slot
+We need to create a feature where a user can enter start date-time and duration of a meeting they want to have. We know the existing booking in our two meeting rooms.
 
-8. **Front-End (FE):** Create a page containing a list of meetings.
+- Write a function to find a free meeting room slot for a given datetime and duration. Use the given mock data function `fetchMeetingRoomData` in `meetingRoomData.ts` as the data source.
+- Write unit tests for function and end-point.
+- Expose the function as a API end-point.
 
-9. **Front-End (FE):** Add a button to sort the meeting list in ascending order.
+**----  Discussion ----**
 
-10. **Front-End (FE):** Incorporate a chart using `chartjs` to visualize data.
+- What are the prompts you used?
+- What prompts didn’t work and why?
+
+-----
+## Stretch goals, welcome to try:
+
+3. **Back-End (BE):** Create an API endpoint to receive login details and respond with a hardcoded token using HTTP 200 status.
+
+4. **Front-End (FE):** Write an API request to communicate with the login API.
+
+5. **Front-End (FE):** Add routing to the React project using `react-router-dom`.
+
+6. **Front-End (FE):** Add page where user can pick date-time and duration for the meeting and query the API.
+
 
 ## Tech Stack
 
@@ -40,5 +62,5 @@ Participants will be assigned the following tasks:
 
 ## Knowledge Sharing
 
-- Sample prompts will be provided by organizers for each task as teams work on them.
-- Participants can share prompts and their results in a chat for knowledge sharing.
+- Participants are encouraged to share screenshots of prompts and their results in a chat.
+- We will discuss experience in prompt engineering during discussion hours.
