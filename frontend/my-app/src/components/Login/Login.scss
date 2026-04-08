@@ -1,0 +1,65 @@
+/* have css styles for form-container form-row and form-field */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    /* align items at start */
+    align-items: flex-start;
+     margin: 10px 0px;
+     flex-grow: 1;
+
+     
+     input {
+        width: 100%;
+     }
+}
+
+// add a button styles to the form with primary and secondary colors
+.form-button {
+    background-color: #17179f; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+
+    &.secondary {
+        background-color: #008CBA; /* Blue */
+    }
+
+    &:hover {
+        background-color: #474fbf;
+    }
+    
+}
+
+// add a styles for form-error to display error message
+.form-error {
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
